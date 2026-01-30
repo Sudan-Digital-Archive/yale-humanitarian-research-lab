@@ -2,3 +2,7 @@ __pycache__/
 .venv
 .python-version
 .ipynb_checkpoints/
+.vscode/
+*.csv
+*.bak
+*.html
