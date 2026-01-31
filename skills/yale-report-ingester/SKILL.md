@@ -12,8 +12,8 @@ against a local manifest to avoid unnecessary work.
 
 ## Prerequisites
 
-- **Python Script:** `skills/yale-report-ingester/scripts/get_latest_yale_reports.py` must exist in the repository.
-- **Manifest:** `.gemini/yale_manifest.json` must exist (tracks the last ingested URL).
+- **Python Script:** `get_latest_yale_reports.py` must exist in the repository.
+- **Manifest:** `yale_manifest.json` must exist (tracks the last ingested URL).
 - **Environment:** `uv` must be installed to run the Python script.
 - **SDA Subject ID:** `37` (Yale Humanitarian Research Lab).
 
