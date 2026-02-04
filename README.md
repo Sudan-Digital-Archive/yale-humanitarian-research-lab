@@ -6,7 +6,7 @@ and to upload them to https://sudandigitalarchive.com.
 You can see the code the intiail ingest in `initial_ingest`. It is pretty messy - an initial scrape of the page,
 a jupyter notebook to explore and clean the data, followed by some scripts to talk to the API and do the upload.
 
-The `yale-report-ingester` Gemini CLI skill is used to regularly check for and archive new reports.
+The `yale-report-ingester` OpenCode skill is used to regularly check for and archive new reports.
 
 ## Quickstart
 
@@ -17,8 +17,8 @@ The `yale-report-ingester` Gemini CLI skill is used to regularly check for and a
 5. Follow the instructions at 
 [https://github.com/Sudan-Digital-Archive/mcp-server](https://github.com/Sudan-Digital-Archive/mcp-server) to install
 the MCP server running locally over `stdio`
-6. Install the gemini skill `gemini skills install skills/yale-report-ingester --scope workspace`
-7. Ask Gemini CLI to check for new reports:
+6. Install OpenCode and start it with `opencode`
+7. Ask any OpenCode agent to check for new reports:
 
 > "Check for new Yale Humanitarian Research Lab reports and ingest them if found."
 
